@@ -61,7 +61,7 @@ class my_KNN:
                     xi = row[i]
                     yi = x[i]
                     dist += ((abs(xi - yi))**p)**(1/p)
-            distances.append(dist)
+                distances.append(dist)
 
 
         elif self.metric == "cosine":
